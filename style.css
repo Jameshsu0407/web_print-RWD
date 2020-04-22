@@ -1,0 +1,199 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+section {
+  padding: 50px 0;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold !important;
+}
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top {
+  background-color: transparent;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a {
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://pic2.zhimg.com/96799d60c4af201ee691dff8322c8815_b.jpg);
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+
+header.jumbotron .container h1 {
+  font-size: 70px;
+}
+
+header.jumbotron .container hr {
+  max-width: 50px;
+  border: 2px solid #ff6e3a;
+}
+
+header.jumbotron .container h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: normal;
+  font-size: 24px;
+}
+
+#section_ask {
+  background-color: #ff6e3a;
+}
+
+#section_ask .col-sm-5.img {
+  background-image: url(https://www.booklife.com.tw/upload_files/booklife/website/g0200021%20-c2.jpg);
+  height: 350px;
+  mix-blend-mode: multiply;
+}
+
+#section_ask .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section_ask .flex h2 {
+  padding: 20px 0px;
+}
+
+#section_about img {
+  margin-bottom: 10px;
+}
+
+#section_story {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+
+#section_story .col-sm-5 {
+  background-image: url(https://stutzfamily.com/mrstutz/Maps/USHistory/europe1938.gif);
+  background-size: cover;
+  height: 400px;
+}
+
+#section_story .col-sm-5 .cross {
+  position: absolute;
+  left: 23%;
+  top: 30%;
+  color: red;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+#section_story .col-sm-7 {
+  text-align: center;
+}
+
+#section_story .col-sm-7 h2 {
+  margin-top: 10px;
+}
+
+#section_story .col-sm-7 hr {
+  border: 1px solid white;
+  margin-top: 0;
+}
+
+#section_story .col-sm-7 .features {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#section_story .col-sm-7 .features i {
+  font-size: 40px;
+  margin: 10px;
+}
+
+#section_future .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section_future i {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://pic2.zhimg.com/96799d60c4af201ee691dff8322c8815_b.jpg);
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+footer.jumbotron .container {
+  color: white;
+  padding: 50px 0px;
+}
+
+footer.jumbotron .container input {
+  margin-top: 20px;
+  background-color: transparent;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+footer.jumbotron .container hr {
+  max-width: 50px;
+  border: 2px solid #ff6e3a;
+}
+
+@media screen and (max-width: 576px) {
+  #section_ask {
+    padding: 10px 0;
+  }
+  footer.jumbotron .container {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header.jumbotron {
+    background-attachment: fixed;
+  }
+  footer.jumbotron {
+    background-attachment: fixed;
+  }
+}
+/*# sourceMappingURL=style.css.map */
