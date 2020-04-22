@@ -1,9 +1,7 @@
 $color_orange: #ff6e3a
-
 *
   font-family: 微軟正黑體
   // border: 1px solid #666
-  
 section
   padding: 50px 0
 body
@@ -105,7 +103,7 @@ footer.jumbotron
   // background-attachment: fixed
   .container
     color: white
-    padding: 50px 0px
+    padding: 70px 0px
     input
       margin-top: 20px
       background-color: transparent
@@ -113,6 +111,8 @@ footer.jumbotron
       margin-left: auto
       margin-right: auto
       text-align: center
+      &::placeholder
+          color: white
     hr
       max-width: 50px
       border: 2px solid $color_orange
@@ -124,11 +124,11 @@ footer.jumbotron
   footer.jumbotron
     .container
       padding: 20px 0
-// @media screen and (min-width: 1024px)
-//   header.jumbotron
-//     background-attachment: fixed
-//   footer.jumbotron
-//     background-attachment: fixed
+@media screen and (min-width: 1024px)
+  header.jumbotron
+    background-attachment: fixed
+  footer.jumbotron
+    background-attachment: fixed
     
 // debug
 // header.jumbotron

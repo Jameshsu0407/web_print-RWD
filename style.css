@@ -162,7 +162,7 @@ footer.jumbotron {
 
 footer.jumbotron .container {
   color: white;
-  padding: 50px 0px;
+  padding: 70px 0px;
 }
 
 footer.jumbotron .container input {
@@ -172,6 +172,22 @@ footer.jumbotron .container input {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+footer.jumbotron .container input::-webkit-input-placeholder {
+  color: white;
+}
+
+footer.jumbotron .container input:-ms-input-placeholder {
+  color: white;
+}
+
+footer.jumbotron .container input::-ms-input-placeholder {
+  color: white;
+}
+
+footer.jumbotron .container input::placeholder {
+  color: white;
 }
 
 footer.jumbotron .container hr {
@@ -185,6 +201,15 @@ footer.jumbotron .container hr {
   }
   footer.jumbotron .container {
     padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header.jumbotron {
+    background-attachment: fixed;
+  }
+  footer.jumbotron {
+    background-attachment: fixed;
   }
 }
 /*# sourceMappingURL=style.css.map */
